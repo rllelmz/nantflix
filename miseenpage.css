@@ -1,0 +1,743 @@
+body
+{
+    background-image: url(cosy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 55px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 2px #DEB887;   
+}
+
+.bouton
+{
+    line-height: 50px;
+}
+
+.bouton input
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 10px 5px 9px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#conn:hover
+{
+    width: 150px;
+    height: 40px;
+    transform: scale(1.15,1.35);  
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#insc:hover
+{
+    width: 150px;
+    height: 40px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#insere:hover
+{
+    width: 150px;
+    height: 40px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#button 
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#button:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.connexion
+{
+    line-height: 50px;
+}
+
+.connexion label 
+{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    text-shadow: 10px 5px 9px;   
+}
+
+input:invalid
+{
+    border: brown solid 3px;
+}
+
+input:valid
+{
+     border: #F5DEB3 solid 3px;
+}
+
+#inscription
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#inscription:hover{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.inscrire 
+{
+    line-height: 15px;
+}
+
+.inscrire label
+{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    text-shadow: 10px 5px 9px; 
+}
+
+#bienvenue 
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#bienvenue:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+
+}
+
+#accueil
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#accueil:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#welcome
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#welcome:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+    
+}
+
+#insertion
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#insertion:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.inserer
+{
+    line-height: 15px;
+}
+
+.inserer label
+{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    text-shadow: 10px 5px 9px;
+}
+
+h2
+{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 2px #DEB887; 
+    line-height: 90px;
+}
+
+#deconnexion
+{
+    border: 0px;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    bottom: -30px;
+    right: 650px;
+    cursor: alias;
+}
+
+#deconnexion:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#nav
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#nav li
+{
+    display: inline-block;
+    width: 330px;
+    height: 20px;
+    margin: 2px;
+    padding: 2px;
+    font-size: 19px;
+    border-right: 2px #F5DEB3 solid; 
+    border-bottom: 2px #DEB887 solid;
+    border-top: 2px #F5DEB3 solid;
+    border-left: 2px #F5DEB3 solid;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    box-shadow: 8px 5px 5px #FFFFFF;  
+    cursor: alias;
+}
+
+#nav li a
+{
+    text-decoration: none;
+    display: block;
+    color: #FFFFFF;
+    cursor: alias;
+    transition: all 1s ease-out;
+}
+
+#nav a:hover, #nav a :focus
+{
+    width: 330.5px;
+    height: 24.5px;
+    margin-top: -2.5px;
+    color: brown;
+    background-color: burlywood;
+}
+
+#choix
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+    
+}
+
+#choix:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+h3
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 2px #DEB887; 
+    line-height: 50px;
+}
+
+#return 
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887); 
+    cursor: alias;
+}
+
+#return:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#retour
+{
+    border: 0px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887); 
+    cursor: alias;
+}
+
+#retour:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+ #disconnect
+{
+    border: 0px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887); 
+    cursor: alias;
+}
+
+#disconnect:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#visionnage 
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887); 
+    cursor: alias;
+}
+
+#visionnage:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.choisir
+{
+    line-height: 30px;
+}
+
+.choisir label 
+{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    text-shadow: 10px 5px 9px;   
+}
+
+.choisir h4
+{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 2px #DEB887; 
+    line-height: 90px;
+}
+
+#connect
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#connect:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#presentation
+{
+    text-align: center;
+    color: white;
+    margin: 150px 450px;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+#presentation:hover
+{ 
+    width: 500px;
+    height: 100px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+
+#profile
+{
+    text-align: center;
+    color: white;
+    margin: 100px 450px;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+#profile:hover
+{
+    width: 500px;
+    height: 100px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#contact
+{
+    line-height: 50px;
+}
+
+
+#contact
+{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 9px; 
+}
+
+#envoyer
+{
+    border: 0px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #DEB887;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px;
+    background-image: linear-gradient(#F5DEB3,#DEB887);
+    cursor: alias;
+}
+
+#envoyer:hover
+{
+    width: 130px;
+    height: 30px;
+    transform: scale(1.15,1.35);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+#commentaire
+{
+    height: 100px;
+}
+
+.images img
+{
+    float: normal;
+    width:290px;
+    height:245px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#cold:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#criminal:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#experts:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#motive:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15); 
+}
+
+.imgs img 
+{
+    float: normal;
+    width:290px;
+    height:250px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#famille:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#malcolm:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#saddle:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#nanny:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+.pictures img
+{
+    float: normal;
+    width:290px;
+    height:230px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#foot:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#minis:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#spies:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+#simpsons:hover
+{
+    width: 250px;
+    height: 180px;
+    transform: scale(1.15,2.15);
+}
+
+h4
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 5px 2px #DEB887; 
+    line-height: 10px;
+    text-align: center;
+}

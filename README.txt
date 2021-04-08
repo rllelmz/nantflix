@@ -1,0 +1,29 @@
+NANTFLIX
+
+Explication des différentes pages
+
+« bienvenue.html » : page d’accueil du site avec 3 boutons pour la connexion, l’inscription et l’insertion de séries.
+« insertionserie.php » : Cette page permet d’insérer une série dans la base de données pour que les membres puissent regarder une série. On y retrouve comme champs : l’intitulé, le nombre d’épisodes, les acteurs, le réalisateur et l’année de sortie.
+« traitementinsertion.php » : Cette page permet de traiter l’insertion d’une série dans la base de données. On va d’abord récupérer les informations saisies puis on va vérifier si on a bien cliqué sur le bouton « submit ». Une fois cette opération terminée, on se connecte à la base de données et si la connexion est réussie, on lance une requête pour insérer les informations dans la base de données. Si l’exécution de la requête est réussie, un message de réussite est affiché pour dire que la série est bien ajoutée, sinon un message d’erreur est affiché avec un bouton retour vers la page d’insertion. 
+« inscription.php » : il permet à l’utilisateur de s’inscrire en renseignant son email, un mot de passe, un nom, un prénom, une date de naissance et un numéro de téléphone. Le nouvel utilisateur doit respecter les critères mis dans les zones de texte pour être sûr d’être inscrit.
+« traitementinscription.php » : c’est la page de traitement pour l’inscription. Cette page va d’abord récupérer les informations données par l’utilisateur et si l’utilisateur a bien cliqué sur le bouton « S’inscrire », il se connecte à la base de données. Si la connexion à la base de données a échoué, un message d’erreur est affiché, sinon elle va insérer, grâce à une requête « insert into », les informations de l’utilisateur dans la table « inscription » de la base de données « Nantflix ». Après cela, elle redirige l’utilisateur vers la page de connexion.
+« seconnecter.php » : Après s’être inscrit, l’utilisateur pourra renseigner son email et son mot de passe pour pouvoir se connecter à son espace membre.
+« traitementconnexion.php » : Cette page va d’abord vérifier si l’utilisateur a bien clique sur le bouton « Login » et si il a bien rempli tous les champs de la connexion. Si tous les champs sont remplis, la page va récupérer l’email et le mot de passe saisis par l’utilisateur puis se connecter à la base de données. Si la connexion est réussi, on lance une requête pour sélectionner le prénom et le mot de passe de l’utilisateur où la valeur de l’identifiant vaut le mail enregistré dans la base de données. Si la requête est bien exécutée et que l’identifiant n’est pas présent, un message est adressé à la personne l’envoyant vers un lien d’inscription. Si l’identifiant est présent, on compare le mot de passe enregistré et celui renseigné lors de la connexion : s’il est juste, l’utilisateur est redirigé vers sa page membre (« series.php ») et on sauvegarde son prénom sinon un message d’erreur s’affiche.
+« series.php » : Une fois l’authentification faite, l’utilisateur est sur son espace membre avec son prénom affiché. Il retrouvera un menu de navigation avec 4 boutons : Bibliothèque, Profil, A propos de, Contact et tout en bas de la page un bouton déconnexion.  Le bouton « Bibliothèque » va le ramener vers une page pour consulter les séries présentes dans la base de données. Le bouton « Profil » va le ramener vers une page où il pourra voir ses informations. Le bouton « A propos » qui présente la plateforme Nantflix et le dernier bouton « Contact » où il peut émettre un commentaire. Il est important de noter que lorsque l’utilisateur s’est déconnecté ou ne s’est pas encore connecté au site, il ne pourra pas accéder à cette page car on va lui demander de se connecter.
+« deconnexion.php » : Pour permettre à l’utilisateur de se déconnecter de sa session.
+« envoyer.php » : Cette page n’est pas fonctionnel car non demandé mais il s’agit du commentaire émis par l’utilisateur.
+« profil.php » : La page de consultation de ses données renseignés dans le formulaire. Par précaution, le mot de passe n’y est pas communiqué. Si l’utilisateur s’est déconnecté ou ne s’est pas encore connecté au site, il ne pourra pas accéder à cette page car on va lui demander de se connecter.
+« bibliothèque.php » : C’est la page de consultation des séries. L’utilisateur retrouvera toutes les séries présentes dans la base de données et aura le choix pour regarder la série qu’il souhaite et un bouton retour s’il souhaite retourner sur sa page d’utilisateur. Si l’utilisateur s’est déconnecté ou ne s’est pas encore connecté au site, il ne pourra pas accéder à cette page car on va lui demander de se connecter.
+« choisir.php » : Après avoir choisi une série et cliqué sur le bouton choisir, un message sera affiché avec la série qu’il a choisi. Dans cette page il pourra choisir l’épisode qu’il souhaite regarder et cliquer sur le bouton « visionner » pour visionner la série ou retour s’il souhaite changer de série à visionner. Si l’utilisateur s’est déconnecté ou ne s’est pas encore connecté au site, il ne pourra pas accéder à cette page car on va lui demander de se connecter.
+« visionner.php » : Cette page permet à l’utilisateur de visionner la série : il sera affiché son prénom, le numéro de l’épisode qu’il regarde ainsi que le nom de la série. Si l’utilisateur s’est déconnecté ou ne s’est pas encore connecté au site, il ne pourra pas accéder à cette page car on va lui demander de se connecter.
+« miseenpage.css » : C’est la mise en page du site pour le rendre plus joyeux à regarder  c’est-à-dire rendre notre site web plus vivant.
+
+Connexion à la base de données 
+
+Host/servername : localhost
+Port : 8889
+User : root
+Password : root
+Socket : /Applications/MAMP/tmp/mysql/mysql.sock
+
+ 
